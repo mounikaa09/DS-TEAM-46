@@ -1,0 +1,34 @@
+Explanation of Architecture Components
+User Interface:
+
+Admin Panel: For administrators to view and manage student responses.
+Student Portal: For students to submit their answers.
+REST API:
+
+Built using Node.js and Express, this layer handles incoming requests from the UI and interacts with the database and other services.
+Database:
+
+MongoDB: Used to store user data, responses, and evaluation results.
+NLP Service:
+
+Implements Natural Language Processing techniques for evaluating grammar, coherence, and relevance of responses.
+Text Corpus:
+
+A reference dataset for comparing the quality of student responses.
+Plagiarism Checker:
+
+Compares student responses against existing documents to ensure originality.
+Software Tools Used by the Team
+Frontend:
+
+React: For building the user interface (student portal and admin panel).
+HTML/CSS: For structuring and styling the web pages.
+Backend:
+
+Node.js: JavaScript runtime for server-side programming.
+Express: Framework for building the RESTful API.
+Database:
+
+MongoDB: NoSQL database for storing responses and user data.
+NLP Libraries:
+NLTK or spaCy: Python libraries for natural language processing tasks.
