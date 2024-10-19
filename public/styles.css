@@ -1,0 +1,31 @@
+body {
+    font-family: fantasy, sans-serif;
+    background-color: #020d0d;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background: rgb(216, 188, 5);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(31, 13, 226, 0.1);
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#result {
+    margin-top: 30px;
+}
